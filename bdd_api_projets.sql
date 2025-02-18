@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS projets_portfolio;
+USE projets_portfolio;
+
+CREATE TABLE IF NOT EXISTS projet (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titre VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    technologie VARCHAR(255) NOT NULL,
+    lien_demo VARCHAR(255) DEFAULT NULL,
+    lien_github VARCHAR(255) DEFAULT NULL,
+    image VARCHAR(255) DEFAULT NULL,
+    date_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
