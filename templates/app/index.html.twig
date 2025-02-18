@@ -1,0 +1,22 @@
+{#template/app/index.html.twig#}
+
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+<div class="acceuil">
+    <div class="navbar">
+        <div class="logo">
+            <a href="{{ path('app_home_index') }}">mohamed</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="{{ path('app_home_index') }}">Accueil</a></li>
+                <li><a href="{{ path('app_about_me_toaboutmepage') }}">Mon Parcours</a></li>
+                <!--<li><a href="{#{{ path('app_projets') }}#}">Mon Parcours</a></li>
+                <li><a href="{#{{ path('app_contact') }}#}">Contact</a></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
