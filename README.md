@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MehiaouiMoh
-- I'm in second year of BUT Informatique (Bachlor in Computering Science)
+- I'm in third year of BUT Informatique (Bachlor in Computering Science)
 - 👀 I’m interested in web developpment and web design
 - 🌱 I’m currently learning web developpment (fullstack)
 
